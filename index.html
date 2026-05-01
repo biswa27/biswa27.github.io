@@ -9,14 +9,15 @@
 <meta name="description" content="Portfolio of Biswanath Yadav, DevOps Engineer delivering enterprise infrastructure and CI/CD automation for Global Automotive Leaders." />
 <meta property="og:title" content="Biswanath Yadav | DevOps Engineer" />
 <meta property="og:description" content="2.5+ years scaling enterprise infrastructure, automating CI/CD pipelines, and ensuring 99.9% uptime for Tier-1 OEMs." />
-<meta property="og:image" content="https://biswa27.github.io/og-image.jpg" /> <!-- Make sure to upload og-image.jpg to your repo! -->
+<meta property="og:image" content="https://biswa27.github.io/og-image.jpg" />
 <meta property="og:url" content="https://biswa27.github.io/" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary_large_image" />
 
+<!-- Swapped 'Syne' for 'Outfit' to fix the stretched text issue -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:wght@300;400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=DM+Mono:wght@300;400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 <style>
@@ -107,7 +108,7 @@
     transition: background 0.3s;
   }
   .nav-logo {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 800; font-size: 1.4rem;
     color: var(--neon);
     letter-spacing: -0.5px;
@@ -157,7 +158,7 @@
     z-index: 999; flex-direction: column; align-items: center; justify-content: center; gap: 36px;
   }
   .mobile-menu.open { display: flex; }
-  .mobile-menu a { font-family: 'Syne', sans-serif; font-size: 1.8rem; color: var(--text); text-decoration: none; }
+  .mobile-menu a { font-family: 'Outfit', sans-serif; font-size: 1.8rem; color: var(--text); text-decoration: none; font-weight: 700; }
   .mobile-menu a:hover { color: var(--neon); }
 
   /* ── SECTIONS ── */
@@ -168,8 +169,8 @@
     text-transform: uppercase; color: var(--neon); margin-bottom: 10px;
   }
   .section-title {
-    font-family: 'Syne', sans-serif; font-size: clamp(2rem, 4vw, 3rem);
-    font-weight: 800; line-height: 1.1; margin-bottom: 48px;
+    font-family: 'Outfit', sans-serif; font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 800; line-height: 1.1; margin-bottom: 48px; letter-spacing: -0.5px;
   }
   .section-title em { font-style: normal; color: var(--neon); }
 
@@ -193,11 +194,11 @@
   @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.4; transform: scale(0.7); } }
   
   .hero-name {
-    font-family: 'Syne', sans-serif;
-    font-size: clamp(2.5rem, 5.5vw, 5.5rem); /* Tamed the maximum size */
+    font-family: 'Outfit', sans-serif;
+    font-size: clamp(3rem, 7vw, 5.5rem); /* Fixed smooth scaling */
     font-weight: 800;
     line-height: 1.05; 
-    letter-spacing: -1.5px;
+    letter-spacing: -1px;
     margin-bottom: 18px;
   }
   .hero-name .line2 { color: var(--neon); }
@@ -218,29 +219,29 @@
   .hero-desc strong { color: var(--text); }
   .hero-btns { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 56px; }
   .btn-primary {
-    padding: 14px 32px; background: var(--neon); color: var(--bg); font-family: 'Syne', sans-serif; 
-    font-weight: 700; font-size: 0.9rem; border: none; border-radius: 8px;
+    padding: 14px 32px; background: var(--neon); color: var(--bg); font-family: 'Outfit', sans-serif; 
+    font-weight: 700; font-size: 0.95rem; border: none; border-radius: 8px;
     cursor: none; text-decoration: none; transition: box-shadow 0.3s, transform 0.2s; letter-spacing: 0.5px;
   }
   .btn-primary:hover { box-shadow: var(--neon-glow); transform: translateY(-2px); }
   .btn-outline {
     padding: 14px 32px; background: transparent; color: var(--text);
-    border: 1px solid var(--glass-border); border-radius: 8px; font-family: 'Syne', sans-serif;
-    font-weight: 600; font-size: 0.9rem; cursor: none; text-decoration: none;
+    border: 1px solid var(--glass-border); border-radius: 8px; font-family: 'Outfit', sans-serif;
+    font-weight: 600; font-size: 0.95rem; cursor: none; text-decoration: none;
     backdrop-filter: blur(10px); transition: border-color 0.3s, color 0.3s, transform 0.2s;
   }
   .btn-outline:hover { border-color: var(--neon2); color: var(--neon2); transform: translateY(-2px); }
   .btn-ghost {
     padding: 14px 32px; background: transparent; color: var(--text);
-    border: 1px solid transparent; border-radius: 8px; font-family: 'Syne', sans-serif;
-    font-weight: 600; font-size: 0.9rem; cursor: none; text-decoration: none;
+    border: 1px solid transparent; border-radius: 8px; font-family: 'Outfit', sans-serif;
+    font-weight: 600; font-size: 0.95rem; cursor: none; text-decoration: none;
     transition: color 0.3s, transform 0.2s;
   }
   .btn-ghost:hover { color: var(--neon); transform: translateY(-2px); }
   
   .hero-stats { display: flex; gap: 40px; flex-wrap: wrap; }
   .hero-stat .num {
-    font-family: 'Syne', sans-serif; font-size: 2.4rem; font-weight: 800; color: var(--neon); line-height: 1;
+    font-family: 'Outfit', sans-serif; font-size: 2.4rem; font-weight: 800; color: var(--neon); line-height: 1;
   }
   .hero-stat .label { font-size: 0.78rem; color: var(--muted); margin-top: 4px; line-height: 1.4; }
   .hero-socials { display: flex; gap: 16px; margin-top: 48px; }
@@ -263,7 +264,7 @@
     border-radius: 16px; backdrop-filter: blur(14px); text-align: center; transition: border-color 0.3s, transform 0.3s;
   }
   .counter-card:hover { border-color: var(--neon); transform: translateY(-4px); }
-  .counter-card .big { font-family: 'Syne', sans-serif; font-size: 2.2rem; font-weight: 800; color: var(--neon); }
+  .counter-card .big { font-family: 'Outfit', sans-serif; font-size: 2.2rem; font-weight: 800; color: var(--neon); }
   .counter-card .small { font-size: 0.78rem; color: var(--muted); margin-top: 4px; }
   .about-img-wrap { position: relative; display: flex; align-items: center; justify-content: center; }
   .about-avatar-ring {
@@ -275,7 +276,7 @@
   .about-avatar-inner {
     width: 100%; height: 100%; border-radius: 50%; background: var(--bg2);
     display: flex; align-items: center; justify-content: center;
-    font-family: 'Syne', sans-serif; font-size: 5rem; font-weight: 800; color: var(--neon);
+    font-family: 'Outfit', sans-serif; font-size: 5rem; font-weight: 800; color: var(--neon);
   }
 
   /* ── SKILLS & BENTO GRID ── */
@@ -293,7 +294,7 @@
     font-family: 'DM Mono', monospace; font-size: 0.7rem; letter-spacing: 2px; 
     text-transform: uppercase; color: var(--neon); margin-bottom: 16px;
   }
-  .bento-card h3 { font-family: 'Syne', sans-serif; font-size: 1rem; font-weight: 700; margin-bottom: 14px; color: var(--text); }
+  .bento-card h3 { font-family: 'Outfit', sans-serif; font-size: 1.1rem; font-weight: 700; margin-bottom: 14px; color: var(--text); }
   .skill-tags { display: flex; flex-wrap: wrap; gap: 8px; }
   .skill-tag {
     display: inline-flex; align-items: center; gap: 6px; padding: 5px 12px;
@@ -307,7 +308,7 @@
   .skill-tag.purple { background: rgba(191,90,242,0.06); border-color: rgba(191,90,242,0.2); }
   .skill-tag.purple:hover { background: rgba(191,90,242,0.12); border-color: var(--neon3); }
   .bento-highlight { background: linear-gradient(135deg, rgba(0,245,196,0.07), rgba(0,128,255,0.05)); border-color: rgba(0,245,196,0.15); }
-  .bento-stat-big { font-family: 'Syne', sans-serif; font-size: 3.5rem; font-weight: 800; color: var(--neon); line-height: 1; }
+  .bento-stat-big { font-family: 'Outfit', sans-serif; font-size: 3.5rem; font-weight: 800; color: var(--neon); line-height: 1; }
   .bento-stat-sub { font-size: 0.85rem; color: var(--muted); margin-top: 8px; line-height: 1.5; }
   .bento-devicons { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
   .bento-devicons i { font-size: 2rem; opacity: 0.75; transition: opacity 0.2s, transform 0.2s; }
@@ -331,7 +332,7 @@
   }
   .tl-card:hover { border-color: rgba(0,245,196,0.25); transform: translateX(4px); box-shadow: var(--card-shadow); }
   .tl-header { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 12px; margin-bottom: 6px; }
-  .tl-role { font-family: 'Syne', sans-serif; font-size: 1.1rem; font-weight: 700; }
+  .tl-role { font-family: 'Outfit', sans-serif; font-size: 1.1rem; font-weight: 700; }
   .tl-date {
     font-family: 'DM Mono', monospace; font-size: 0.75rem; color: var(--neon); 
     background: rgba(0,245,196,0.08); border: 1px solid rgba(0,245,196,0.15); padding: 4px 12px; border-radius: 100px;
@@ -361,12 +362,13 @@
     border-bottom: 1px solid var(--glass-border); padding-bottom: 12px; letter-spacing: 1px;
   }
   
-  /* GitHub API Live Stats Box */
+  /* GitHub API Live Stats Box - Fixed styling and URLs */
   .github-live-stats {
     display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-bottom: 50px;
   }
   .github-live-stats img {
-    border: 1px solid var(--glass-border); border-radius: 12px; width: 100%; object-fit: contain;
+    border-radius: 10px; width: 100%; object-fit: contain;
+    background: transparent;
   }
 
   .projects-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
@@ -382,7 +384,7 @@
   .project-card:hover { border-color: rgba(0,245,196,0.2); box-shadow: 0 0 40px rgba(0,245,196,0.07), var(--card-shadow); }
   .project-card:hover::before { opacity: 1; }
   .project-icon { font-size: 2.2rem; margin-bottom: 16px; display: inline-block; }
-  .project-title { font-family: 'Syne', sans-serif; font-size: 1rem; font-weight: 700; margin-bottom: 10px; }
+  .project-title { font-family: 'Outfit', sans-serif; font-size: 1.1rem; font-weight: 700; margin-bottom: 10px; }
   .project-desc { font-size: 0.85rem; color: var(--muted); line-height: 1.7; margin-bottom: 18px; }
   .project-metrics { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 18px; }
   .project-metric {
@@ -415,13 +417,27 @@
   .cert-logo.azure { background: rgba(0,128,255,0.1); border: 1px solid rgba(0,128,255,0.2); }
   .cert-logo.aws { background: rgba(255,153,0,0.1); border: 1px solid rgba(255,153,0,0.2); color: #FF9900; }
   .cert-logo.other { background: rgba(191,90,242,0.1); border: 1px solid rgba(191,90,242,0.2); color: var(--neon3); }
-  .cert-name { font-family: 'Syne', sans-serif; font-size: 0.9rem; font-weight: 700; margin-bottom: 4px; }
+  .cert-name { font-family: 'Outfit', sans-serif; font-size: 0.95rem; font-weight: 700; margin-bottom: 4px; }
   .cert-issuer { font-size: 0.78rem; color: var(--muted); font-family: 'DM Mono', monospace; }
+  
+  /* Banner Fix for Flexbox stretching */
+  .achievement-banner {
+      background: linear-gradient(135deg, rgba(0,245,196,0.07), rgba(0,128,255,0.05)); 
+      border: 1px solid rgba(0,245,196,0.18); 
+      border-radius: 20px; 
+      padding: 32px 36px; 
+      display: flex; 
+      align-items: center; 
+      gap: 24px; 
+  }
+  @media (max-width: 768px) {
+      .achievement-banner { flex-direction: column; text-align: center; }
+  }
 
   /* ── CONTACT ── */
   #contact { padding: 120px 0 80px; }
   .contact-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; }
-  .contact-info h2 { font-family: 'Syne', sans-serif; font-size: 2rem; font-weight: 800; margin-bottom: 16px; }
+  .contact-info h2 { font-family: 'Outfit', sans-serif; font-size: 2.5rem; font-weight: 800; margin-bottom: 16px; letter-spacing: -0.5px; }
   .contact-info p { color: var(--muted); line-height: 1.8; margin-bottom: 32px; }
   .contact-links { display: flex; flex-direction: column; gap: 16px; }
   .contact-link {
@@ -448,7 +464,7 @@
   .form-group input:focus, .form-group textarea:focus { border-color: var(--neon); box-shadow: 0 0 0 3px rgba(0,245,196,0.08); }
   .form-group textarea { min-height: 120px; }
   .form-submit {
-    padding: 14px 32px; background: var(--neon); color: var(--bg); font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.95rem;
+    padding: 14px 32px; background: var(--neon); color: var(--bg); font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 0.95rem;
     border: none; border-radius: 10px; cursor: none; transition: box-shadow 0.3s, transform 0.2s;
   }
   .form-submit:hover { box-shadow: var(--neon-glow); transform: translateY(-2px); }
@@ -478,7 +494,7 @@
   }
   .lightbox-close:hover { color: var(--text); border-color: var(--text); }
   .lb-icon { font-size: 2.5rem; margin-bottom: 16px; display: inline-block; }
-  .lb-title { font-family: 'Syne', sans-serif; font-size: 1.6rem; font-weight: 800; margin-bottom: 8px; }
+  .lb-title { font-family: 'Outfit', sans-serif; font-size: 1.6rem; font-weight: 800; margin-bottom: 8px; }
   .lb-sub { font-family: 'DM Mono', monospace; font-size: 0.78rem; color: var(--neon); margin-bottom: 20px; }
   .lb-body { font-size: 0.9rem; color: var(--muted); line-height: 1.8; }
   .lb-body ul { padding-left: 20px; margin-top: 12px; }
@@ -789,7 +805,7 @@
         </div>
       </div>
 
-      <!-- NEW: Beyond The Terminal Full Width -->
+      <!-- Beyond The Terminal Full Width -->
       <div class="bento-card full tilt-card reveal delay-2">
         <div style="flex: 1; min-width: 280px;">
           <p class="bento-card-label">Beyond The Terminal</p>
@@ -928,10 +944,10 @@
     <p class="section-label reveal">Portfolio</p>
     <h2 class="section-title reveal">My <em>Work</em></h2>
 
-    <!-- NEW: LIVE GITHUB STATS (Fixed URLs) -->
+    <!-- LIVE GITHUB STATS (Fixed styling to prevent broken image borders) -->
     <div class="github-live-stats reveal">
-      <img src="https://github-readme-stats.vercel.app/api?username=biswa27&theme=nightowl&show_icons=true&hide_border=true&bg_color=060a12" alt="Biswanath's GitHub Stats" style="max-width: 420px;" />
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=biswa27&theme=nightowl&layout=compact&hide_border=true&bg_color=060a12" alt="Top Languages" style="max-width: 320px;" />
+      <img src="https://github-readme-stats.vercel.app/api?username=biswa27&theme=transparent&show_icons=true&hide_border=true&title_color=00f5c4&text_color=e8eaf0&icon_color=0080ff" alt="Biswanath's GitHub Stats" style="max-width: 420px; border: none; background: transparent;" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=biswa27&theme=transparent&layout=compact&hide_border=true&title_color=00f5c4&text_color=e8eaf0" alt="Top Languages" style="max-width: 320px; border: none; background: transparent;" />
     </div>
 
     <!-- GROUP 1: ENTERPRISE SOLUTIONS -->
@@ -1098,10 +1114,10 @@
 
     <!-- Achievement Banner -->
     <div class="reveal" style="margin-top:36px;">
-      <div style="background: linear-gradient(135deg, rgba(0,245,196,0.07), rgba(0,128,255,0.05)); border: 1px solid rgba(0,245,196,0.18); border-radius: 20px; padding: 32px 36px; display: flex; align-items: center; gap: 24px; flex-wrap: wrap;">
-        <div style="font-size: 2.5rem;">🏆</div>
+      <div class="achievement-banner">
+        <div style="font-size: 2.5rem; flex-shrink: 0;">🏆</div>
         <div style="flex: 1;">
-          <div style="font-family: 'Syne', sans-serif; font-size: 1.1rem; font-weight: 800; margin-bottom: 6px;">Batch Topper — TechVarsity DevOps Cohort 2023</div>
+          <div style="font-family: 'Outfit', sans-serif; font-size: 1.1rem; font-weight: 800; margin-bottom: 6px;">Batch Topper — TechVarsity DevOps Cohort 2023</div>
           <div style="font-size: 0.88rem; color: var(--muted);">Ranked <strong style="color: var(--neon);">#1</strong> across the entire EDGE-GET DevOps Training program at Tata Technologies. Automated 100% of CI/CD pipelines, delivering 30% faster deployments and 35% faster incident resolution company-wide.</div>
         </div>
       </div>
@@ -1139,7 +1155,6 @@
               linkedin.com/in/biswanath-yadav-187098235
             </div>
           </a>
-          
           <div class="contact-link" style="cursor: default;">
             <div class="icon location"><i class="fas fa-map-marker-alt"></i></div>
             <div class="contact-link-text">
