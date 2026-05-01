@@ -4,7 +4,13 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<!-- 1. OPEN GRAPH (OG) TAGS FOR SOCIAL SHARING -->
+<!-- FAVICON -->
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<!-- If you use a PNG instead of ICO, you can uncomment the line below and delete the two above -->
+<!-- <link rel="icon" href="favicon.png" type="image/png" /> -->
+
+<!-- OPEN GRAPH (OG) TAGS FOR SOCIAL SHARING -->
 <title>Biswanath Yadav — DevOps & SRE Engineer</title>
 <meta name="description" content="Portfolio of Biswanath Yadav, DevOps Engineer delivering enterprise infrastructure and CI/CD automation for Global Automotive Leaders." />
 <meta property="og:title" content="Biswanath Yadav | DevOps Engineer" />
@@ -14,7 +20,6 @@
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary_large_image" />
 
-<!-- Swapped 'Syne' for 'Outfit' to fix the stretched text issue -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=DM+Mono:wght@300;400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
@@ -195,7 +200,7 @@
   
   .hero-name {
     font-family: 'Outfit', sans-serif;
-    font-size: clamp(3rem, 7vw, 5.5rem); /* Fixed smooth scaling */
+    font-size: clamp(3rem, 7vw, 5.5rem); 
     font-weight: 800;
     line-height: 1.05; 
     letter-spacing: -1px;
@@ -360,15 +365,6 @@
   .projects-group-title {
     font-family: 'DM Mono', monospace; font-size: 0.9rem; color: var(--text); margin-bottom: 24px;
     border-bottom: 1px solid var(--glass-border); padding-bottom: 12px; letter-spacing: 1px;
-  }
-  
-  /* GitHub API Live Stats Box - Fixed styling and URLs */
-  .github-live-stats {
-    display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-bottom: 50px;
-  }
-  .github-live-stats img {
-    border-radius: 10px; width: 100%; object-fit: contain;
-    background: transparent;
   }
 
   .projects-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
@@ -943,12 +939,6 @@
   <div class="container">
     <p class="section-label reveal">Portfolio</p>
     <h2 class="section-title reveal">My <em>Work</em></h2>
-
-    <!-- LIVE GITHUB STATS (Fixed styling to prevent broken image borders) -->
-    <div class="github-live-stats reveal">
-      <img src="https://github-readme-stats.vercel.app/api?username=biswa27&theme=transparent&show_icons=true&hide_border=true&title_color=00f5c4&text_color=e8eaf0&icon_color=0080ff" alt="Biswanath's GitHub Stats" style="max-width: 420px; border: none; background: transparent;" />
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=biswa27&theme=transparent&layout=compact&hide_border=true&title_color=00f5c4&text_color=e8eaf0" alt="Top Languages" style="max-width: 320px; border: none; background: transparent;" />
-    </div>
 
     <!-- GROUP 1: ENTERPRISE SOLUTIONS -->
     <h3 class="projects-group-title reveal">01 // Enterprise Solutions (Tata Technologies)</h3>
